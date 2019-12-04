@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_menu_camera"
+        android:title="@string/menu_home" />
+    </group>
+
+    <item android:title="DogeeKu Shop">
+        <menu>
+            <item
+                android:id="@+id/nav_shop"
+                android:title="@string/menu_shop" />
+
+            <item
+            android:id="@+id/nav_pemesanan"
+            android:title="@string/menu_pemesanan" />
+        </menu>
+    </item>
+
+    <item android:title="DogeeKu Planner">
+        <menu>
+            <item
+                android:id="@+id/nav_planner"
+                android:title="@string/menu_planner" />
+        </menu>
+    </item>
+
+    <item android:title="AnjingKu">
+        <menu>
+            <item
+                android:id="@+id/nav_tambah_anjing"
+                android:title="@string/menu_tambah_anjing" />
+
+            <item
+                android:id="@+id/nav_reservasi"
+                android:title="@string/menu_reservasi" />
+        </menu>
+    </item>
+</menu>

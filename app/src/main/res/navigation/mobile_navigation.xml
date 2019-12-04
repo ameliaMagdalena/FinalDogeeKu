@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+    android:id="@+id/nav_home"
+    android:name="com.example.dogeeku.ui.home.HomeFragment"
+    android:label="@string/menu_home"
+    tools:layout="@layout/fragment_home" />
+
+    <fragment
+    android:id="@+id/nav_shop"
+    android:name="com.example.dogeeku.ui.shop.ShopFragment"
+    android:label="@string/menu_shop"
+    tools:layout="@layout/shop_fragment" />
+
+    <fragment
+        android:id="@+id/nav_pemesanan"
+        android:name="com.example.dogeeku.ui.pemesanan.PemesananFragment"
+        android:label="@string/menu_pemesanan"
+        tools:layout="@layout/pemesanan_fragment" />
+
+    <fragment
+    android:id="@+id/nav_planner"
+    android:name="com.example.dogeeku.ui.planner.PlannerFragment"
+    android:label="@string/menu_planner"
+    tools:layout="@layout/planner_fragment" />
+
+    <fragment
+        android:id="@+id/nav_tambah_anjing"
+        android:name="com.example.dogeeku.ui.tambahAnjing.TambahAnjingFragment"
+        android:label="@string/menu_planner"
+        tools:layout="@layout/planner_fragment" />
+
+    <fragment
+        android:id="@+id/nav_reservasi"
+        android:name="com.example.dogeeku.ui.reservasi.ReservasiFragment"
+        android:label="@string/menu_reservasi"
+        tools:layout="@layout/reservasi_fragment" />
+
+    <fragment
+        android:id="@+id/nav_layanan_klinik"
+        android:name="com.example.dogeeku.ui.home.LayananKlinikFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_layanan_salon"
+        android:name="com.example.dogeeku.ui.home.LayananSalonFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_layanan_penitipan"
+        android:name="com.example.dogeeku.ui.home.LayananPenitipanFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+</navigation>
